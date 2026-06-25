@@ -9,7 +9,7 @@ jobs:
       with:
         python-version: '3.11'
     - run: pip install pyinstaller
-    - run: pyinstaller --onefile --windowed --name="PaperWorkflow" paper_workflow.py
+    - run: pyinstaller --onefile --windowed --name="PaperWorkflow" Paper_Workflow.py
     - uses: actions/upload-artifact@v4
       with:
         name: PaperWorkflow-EXE
